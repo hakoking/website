@@ -4,26 +4,36 @@
 }
 
 html{
-	font-size: 0.8em;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background:url(../media/achtergrond.jpg) #336 no-repeat left top;
-	background-size: auto;
+
 
 }
 body{
+	font-size: 0.8em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
+.achtergrond{
+    position:absolute;
+    top:0;
+    z-index:-1;
+    display:none;
+    width:100%;
+    height:100%;
+}
+
+.container{
+	margin-left:50%;
+	margin-right:auto;
+	width:400px;
 }
 .topmenu{
-	margin-left:50%;
-	width:400px;
-	background-color: #333;
-	margin-top: -10;
 }
 
 .navigation{
+	background-color: #333;
+	width:100%;
+	margin-bottom: 50px;
 	list-style-type: none;
-	margin:0;
-	padding:0;
 	float:left;
 	text-align: center;
 }
@@ -51,4 +61,37 @@ body{
 .navigation li a:hover{
 	color:#fff;
 	background-color:#0b75b2;
+}
+
+/* twitter feed */
+#jst{
+
+	border:1px solid black;
+	clear:both;
+	width: 100%;
+	font-family: arial;
+	font-size: 1em;
+	color: #000;
+	background-color: #fff;
+}
+
+#jst .tweet {
+	margin: 0 auto 1px auto;
+	padding: 10px 0 10px 5px;
+	border-bottom: 1px dotted #ccc;
+}
+
+#jst .tweet a {
+	text-decoration: none;
+	color: #333;
+}
+
+#jst .tweet a:hover {
+	text-decoration: underline;
+}
+
+#jst .tweet .time {
+	font-size: 0.7em;
+	font-style: italic;
+	color: #666666;
 }
