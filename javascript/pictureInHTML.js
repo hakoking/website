@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+	//get all imagesNames from folder "media" and prepend as image in div #wrap
 	$.ajax({
 	  url: "media",
 	  success: function(data){
