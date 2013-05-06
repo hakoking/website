@@ -13,6 +13,4 @@ function knipenplak() {
     setTimeout(knipenplak, 5000);
 }
 knipenplak();
-
-
 });
