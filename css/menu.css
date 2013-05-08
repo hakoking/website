@@ -2,7 +2,7 @@
 #topmenu{
 	margin-left:auto;
 	margin-right:auto;
-	width: 300px;
+	width: 390px;
 	height: 30px;
 }
 #nav{
@@ -18,12 +18,12 @@
 	list-style: none;
 }
 #nav li a {
-	width: 50px;
+	width: 65px;
 	height: 30px;
 	font-size: 1em;
 	font-weight:bold;
 	background: #333;
-	color: #fff;
+	color: #d0d0d0;
 	text-decoration: none;
 	display: block;
 	line-height: 30px;
@@ -41,7 +41,7 @@
 	color: #333;
 	display: none;
 	margin: 0 0 0 0;
-	width: 50px;
+	width: 65px;
 	position: absolute;
 }
 

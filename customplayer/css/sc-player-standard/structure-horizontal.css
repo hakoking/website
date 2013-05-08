@@ -1,9 +1,9 @@
 
 .sc-player {
-  width: 540px;
+  float: left;
+  width: 40%;
   height: 140px;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .sc-player ol, .sc-player li{
@@ -82,7 +82,7 @@
   left: 10px;
   bottom: 10px;
   height: 40px;
-  width: 250px;
+  width: 47%;
   -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.30);
   -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.30);
   display: block;
@@ -180,7 +180,7 @@
   top: -25px;
   left: 0px;
   position: absolute;
-  width: 90px;
+  width: 30%;
   height: 12px;
   background-color: white;
 }

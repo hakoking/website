@@ -3,7 +3,7 @@ $(document).ready(function(){
 //hide backgrounds
 $('achtergrond').hide();
 //timeout for javascript running too fast
-setTimeout(outer,50);
+setTimeout(outer,100);
 
 
 //put last image to first place with given timeouts
