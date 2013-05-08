@@ -1,0 +1,41 @@
+#footerholder {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+#sliderbuttondown{
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	width: 100px;
+	height: 25px;
+	margin:auto;
+	background-color: #333;
+}
+#sliderbuttonup{
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 0px;
+	border-style: solid;
+	display: none;
+	width: 100px;
+	height: 25px;
+	margin:auto;
+	background-color: white;
+}
+
+#footerslider{
+
+	padding: 10px 20px 10px 20px;
+	margin: auto;
+	width:800px;
+	height:250px;
+	display: none;
+	background-color: #333;
+
+}

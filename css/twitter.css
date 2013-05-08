@@ -1,0 +1,32 @@
+/* twitter feed */
+#jst{
+
+	border:1px solid black;
+	clear:both;
+	width: 400px;
+	font-family: arial;
+	font-size: 1em;
+	color: #000;
+	background-color: #fff;
+}
+
+#jst .tweet {
+	margin: 0 auto 1px auto;
+	padding: 10px 0 10px 5px;
+	border-bottom: 1px dotted #ccc;
+}
+
+#jst .tweet a {
+	text-decoration: none;
+	color: #333;
+}
+
+#jst .tweet a:hover {
+	text-decoration: underline;
+}
+
+#jst .tweet .time {
+	font-size: 0.7em;
+	font-style: italic;
+	color: #666666;
+}
