@@ -3,11 +3,14 @@
 	top:100px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 500px;
-	height: 300px;
-	border: 1px solid #333;
-	background-color: #fff;
+	width: 750px;
+	height: 400px;
+	background-color: #333;
+	color: #d0d0d0;
+	opacity: 0.75;
 	display: none;
+	overflow-y: scroll;
+	max-width: 100%;
 }
 
 .content-box-dd{
